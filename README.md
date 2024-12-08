@@ -1,4 +1,4 @@
-# Administering Windows Server: My final project
+# Administering Windows Server: My Final Project
 
 ## Table of Contents
 - [Project Overview](#project-overview)
