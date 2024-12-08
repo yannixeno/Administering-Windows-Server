@@ -34,6 +34,8 @@ This guide offers an in-depth walkthrough for setting up a Windows Server enviro
 ## Network and ADDS Setup
 We will configure three servers and one client machine. Each server is assigned a distinct role. The following detailed steps ensure functionality and connectivity.
 
+![image](https://github.com/user-attachments/assets/7f1a5064-f4f0-400d-afb0-2dec56a7c471)
+
 ### Server #1 Configuration
 #### Installation and Role Assignment:
 1. **Install Windows Server**:
@@ -61,6 +63,10 @@ We will configure three servers and one client machine. Each server is assigned 
    - Configure DNS delegation and set the domain functional level to Windows Server 2016.
    - Restart the server after configuration.
 
+![image](https://github.com/user-attachments/assets/9fc3b5f3-1791-4399-96d3-dc92424f1d79)
+
+![image](https://github.com/user-attachments/assets/6b068e9e-cca3-4031-b727-c60630e50e02)
+
 ### Server #2 Configuration
 #### Installation and Role Setup:
 1. **Install Windows Server**:
@@ -83,6 +89,15 @@ We will configure three servers and one client machine. Each server is assigned 
      - IP Range: `192.168.0.50 - 192.168.0.54`
      - Subnet Mask: `255.255.0.0`
      - Default Gateway: Leave blank for this setup.
+
+![image](https://github.com/user-attachments/assets/ed270ee7-93f2-4a2b-b6a1-6dc523399c5d)
+
+![image](https://github.com/user-attachments/assets/2e03d429-0516-4b25-bbde-ba68039f2555)
+
+![image](https://github.com/user-attachments/assets/c05269fa-3b3b-4bff-b159-b367b0741bc5)
+
+![image](https://github.com/user-attachments/assets/3278df71-34d7-46aa-be25-5861298c6714)
+
 
 ### Server #3 Configuration
 #### Installation and Role Assignment:
