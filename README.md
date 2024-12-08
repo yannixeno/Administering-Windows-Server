@@ -114,9 +114,21 @@ We will configure three servers and one client machine. Each server is assigned 
      - Subnet Mask: `255.255.0.0`
      - Preferred DNS: `192.168.0.1`
 
+![image](https://github.com/user-attachments/assets/b416b5e6-27af-4488-931d-1089927c1717)
+
 4. **Create Shared Folders**:
    - Open **File and Storage Services** > "Shares."
    - Create a new SMB share, assign permissions, and set a test folder named `TestFolder`.
+
+![image](https://github.com/user-attachments/assets/2f310415-9306-4a59-a900-3f36e15eb95a)
+
+![image](https://github.com/user-attachments/assets/317f2312-c9ae-4f69-935f-46abbfecb54b)
+
+![image](https://github.com/user-attachments/assets/cd43d34e-d541-4027-8ffd-4edb4f46dec7)
+
+![image](https://github.com/user-attachments/assets/1e34a1a9-d166-4500-8ab7-a1b3466414de)
+
+![image](https://github.com/user-attachments/assets/2f4afc87-2582-4707-afcb-55b120561830)
 
 ### Client Workstation Setup
 #### Installation and DHCP Configuration:
@@ -125,6 +137,10 @@ We will configure three servers and one client machine. Each server is assigned 
 
 2. **Enable DHCP**:
    - Verify that the client receives an IP address dynamically from Server #2.
+
+![image](https://github.com/user-attachments/assets/74ad8447-af58-4d63-9292-f1a5a2efb159)
+
+![image](https://github.com/user-attachments/assets/f6a71ac1-60f9-4f6c-8e64-a1c7a6f6de19)
 
 ---
 
@@ -146,30 +162,11 @@ OUs help manage users and groups effectively. Follow these steps:
 
 3. **Set Group Policies**:
    - Assign basic group policies, such as folder redirection or login scripts, to each group.
+   
+![image](https://github.com/user-attachments/assets/d84dcf17-b1a7-424c-8227-89e64d887318)
 
----
+![image](https://github.com/user-attachments/assets/5e40cb6b-b854-4e54-9117-8e56f5df8e1e)
 
-## Screenshots and Observations
+![image](https://github.com/user-attachments/assets/79668ca0-0019-4c1a-b439-852b641fd2aa)
 
-### Server Configurations
-1. **Server #1**: Local server configuration with ADDS and DNS roles.
-   ![Server #1 Local Configuration](./screenshots/server1.png)
 
-2. **Server #2**: DHCP role setup and connectivity test.
-   ![Server #2 DHCP Setup](./screenshots/server2_dhcp.png)
-
-3. **Server #3**: FRSM configuration and shared folder management.
-   ![Server #3 FRSM Dashboard](./screenshots/server3_frsm.png)
-
-### DHCP and ADUC
-- **DHCP Scope**: Server #2 successfully manages the DHCP range.
-- **ADUC Verification**: Server #2 is visible as a domain controller under ADUC.
-
-### Shared Folder Configuration
-1. **Folder Access**: The `TestFolder` created on Server #3 is accessible to domain users.
-2. **Client Verification**: The client machine, `Yardrat24F`, connects to the shared folder via SMB.
-   ![Shared Folder Access](./screenshots/shared_folders.png)
-
----
-
-This technical guide provides an extensive, step-by-step process for configuring a Windows Server environment, suitable for IT professionals and advanced users.
