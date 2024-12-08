@@ -8,10 +8,6 @@
   - [Server #3 Configuration](#server-3-configuration)
   - [Client Workstation Setup](#client-workstation-setup)
 - [Active Directory Organizational Units](#active-directory-organizational-units)
-- [Screenshots and Observations](#screenshots-and-observations)
-  - [Server Configurations](#server-configurations)
-  - [DHCP and ADUC](#dhcp-and-aduc)
-  - [Shared Folder Configuration](#shared-folder-configuration)
 
 ---
 
