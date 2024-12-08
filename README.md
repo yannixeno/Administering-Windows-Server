@@ -1,4 +1,4 @@
-# Administering Windows Server: Comprehensive Step-by-Step Guide
+# Administering Windows Server: My final project
 
 ## Table of Contents
 - [Project Overview](#project-overview)
