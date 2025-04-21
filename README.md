@@ -14,7 +14,7 @@
 ## Project Overview
 **Theme**: Dragonball Z
 
-This guide offers an in-depth walkthrough for setting up a Windows Server environment with a Dragonball Z theme. It provides detailed instructions for both beginners and advanced users. This setup simulates a small-scale corporate network environment.
+This project is a barebones documentation for setting up a Windows Server environment. This setup simulates a small-scale corporate network environment.
 
 ### Tools and Requirements:
 - **Software**:
